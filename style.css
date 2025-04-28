@@ -1,0 +1,132 @@
+body {
+  background-image: url(https://i.pinimg.com/236x/24/19/d3/2419d3385a01402449ee751e42093e54.jpg);
+  background-repeat: no-repeat;
+  background-size: contain
+    ;
+}
+  
+h2 {
+  font-family: "Lucida Handwriting";
+  text-align: center;
+  color: #e14aaa;
+  background-color: white;
+  border: 1px solid gray;
+  padding: 15px 15px;
+}
+
+p {
+  font-family: "Garamond";
+  text-align: center;
+  color: #2c2d2d;
+  font-size: 20px;
+}
+
+
+h3 {
+    color: #e14aaa;
+  }
+  
+
+.center { 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%
+  }
+
+h1 {
+color: black;
+  text-align: center;
+  font-family: "Monaco";
+  padding: 1px;
+  background-color: white;
+  border: 1px solid gray;
+  font-size: 10px
+}
+
+
+
+/* The grid: Three equal columns that floats next to each other */
+.column {
+  float: inherit;
+  width: 96.1%;
+  padding: 30px;
+  text-align: center;
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+  font-family: Garamond;
+}
+
+
+
+.containerTab {
+  width: 86.4%;
+  padding: 100px;
+  color: black;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Closable button inside the image */
+.closebtn {
+  float: right;
+  color: black;
+  font-size: 37px;
+  cursor: pointer;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #e4a0b7;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100.9%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size:18px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #e15aaa;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 5 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1 .;
+  width: 95.5%;
+}
+
+a {
+  color: #2c2d2d;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Garamond";
+}
+
+h4 {
+   color: #2c2d2d;
+   text-align: center;
+   font-size: 25px;
+}
+
+h4:hover, h4:active {font-family: "Courier New, italic";}
+
+h5 {
+  font-size: 35px;
+  font-family: "Lucida Handwriting";
+  color: #2c2d2d;
+  text-align: center;
+    
+}
